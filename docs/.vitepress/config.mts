@@ -8,7 +8,7 @@ export default withMermaid({
   lang: "zh-CN",
   title: "LumenL1u的主页",
   description: "A Personal Blog",
-  base: "/blog/",
+  base: "/",
   head: [
     [
       "script",
@@ -23,7 +23,7 @@ export default withMermaid({
       })();
       `,
     ],
-    ["link", { rel: "icon", href: "/blog/favicon.ico" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     // 大图预览插件资源
     [
       "link",
@@ -44,7 +44,7 @@ export default withMermaid({
     nav,
     sidebar,
     outline: { label: "目录", level: [2, 3] },
-    socialLinks: [{ icon: "github", link: "https://github.com/focuest/blog" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/LumenL1u/blog" }],
     logo: {
       src: "/image/home/logo.svg",
       width: "24px",
@@ -84,10 +84,10 @@ export default withMermaid({
     },
     footer: {
       message: "玩命更新中...",
-      copyright: `版权所有 © 2024-2022-${new Date().getFullYear()} focuest`,
+      copyright: `版权所有 © 2024-${new Date().getFullYear()} LumenL1u`,
     },
     editLink: {
-      pattern: "https://github.com/focuest/blog/edit/main/docs/:path",
+      pattern: "https://github.com/LumenL1u/blog/edit/main/docs/:path",
       text: "有错误？帮我修正",
     },
     returnToTopLabel: "返回顶部",

@@ -4,7 +4,7 @@
 
 ## **链接**
 
-- [GitHub Pages](https://focuest.github.io/blog/)
+- [GitHub Pages](https://blog.startanew.site/)
 
 ## **环境**
 
